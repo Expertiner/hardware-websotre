@@ -1,0 +1,93 @@
+/*
+#3F6273
+#3F7367
+#2f4f4f cor que eu tinha criado quando iniciei o projeto.
+*/
+
+:root {
+    --color0: #2A8080;
+    --color1: #008080;
+    --color2: #008054;
+    --color3: #005780;
+    --color4: #008029;
+    --color5: #002F80;
+
+    --font-standard: Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-standard);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--color1);
+}
+
+.menu-main, .menu-access{
+    display: inline-block;
+}
+
+.menu-main, .menu-main li {
+    float: left;
+}
+
+li a, .drop-btn {
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu-main a:hover, .dropdown:hover .drop-btn {
+    background-color: var(--color3);
+}
+
+li, li .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 128, 128, 0.502); /*color1 with transparency*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.596);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.273);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.active {
+    background-color: #000;
+}
+
+.menu-access, .menu-access li {
+    float: right;
+}
+
+.menu-access a:hover {
+    background-color: var(--color5);
+}

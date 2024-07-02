@@ -6,15 +6,18 @@ It's is one the first projects that I created myself from scratch.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+- [HTML, CSS - Hardware Webstore](#html-css---hardware-webstore)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [The process](#the-process)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
 <!-- - [Acknowledgments](#acknowledgments) -->
 
 ## Overview
@@ -39,6 +42,10 @@ It's is one the first projects that I created myself from scratch.
 
 1. [CSS Navigation Bar](https://www.w3schools.com/css/css_navbar.asp)
 2. Search for examples and ideas of a webstore content.
+
+1. 07/01/24
+   > Reviewed the code, after 6 months, to understand what I was doing.
+
 
 ### What I learned
 
