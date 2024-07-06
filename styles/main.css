@@ -1,6 +1,6 @@
 /*
-#3F6273
-#3F7367
+--color6: #3F6273;
+--color7: #3F7367;
 #2f4f4f cor que eu tinha criado quando iniciei o projeto.
 */
 
@@ -11,6 +11,7 @@
     --color3: #005780;
     --color4: #008029;
     --color5: #002F80;
+    --color6: #3F6273;
 
     --font-standard: Helvetica, sans-serif;
 }
@@ -22,23 +23,25 @@
     font-family: var(--font-standard);
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+body {
+    background-color: var(--color6);
+}
+
+.menu-global {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: var(--color1);
 }
 
-.menu-main, .menu-access{
-    display: inline-block;
+.menu-global ul {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color1);
+    list-style-type: none;
 }
 
-.menu-main, .menu-main li {
-    float: left;
-}
-
-li a, .drop-btn {
+.menu-global a {
     display: inline-block;
     padding: 14px 16px;
     text-align: center;
@@ -49,20 +52,19 @@ li a, .drop-btn {
 
 .menu-main a:hover, .dropdown:hover .drop-btn {
     background-color: var(--color3);
+}    
+
+.menu-access a:hover {
+    background-color: var(--color5);
 }
 
-li, li .dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
+ul .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(0, 128, 128, 0.502); /*color1 with transparency*/
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.596);
     z-index: 1;
-}
+}    
 
 .dropdown-content a {
     color: #fff;
@@ -70,24 +72,24 @@ li, li .dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
-}
+}    
 
 .dropdown-content a:hover {
     background-color: rgba(0, 0, 0, 0.273);
-}
+}    
 
 .dropdown:hover .dropdown-content{
     display: block;
-}
+}    
 
 .active {
     background-color: #000;
-}
+}    
 
-.menu-access, .menu-access li {
-    float: right;
-}
-
-.menu-access a:hover {
-    background-color: var(--color5);
+footer {
+    background-color: var(--color3);
+    border-top: 3px solid var(--color5);
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
 }

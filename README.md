@@ -36,20 +36,30 @@ It's is one the first projects that I created myself from scratch.
 ### Built with
 
 - Semantic HTML5 markup
-- CSS
+- CSS custom properties
+- CSS Flexbox
+<!-- 
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles -->
 
 ### The process
 
 1. [CSS Navigation Bar](https://www.w3schools.com/css/css_navbar.asp)
 2. Search for examples and ideas of a webstore content.
 
-1. 07/01/24
+3. 01/07/24
    > Reviewed the code, after 6 months, to understand what I was doing.
+
+4. 05/07/24
+   > Change the nav bar from float to flexbox.
 
 
 ### What I learned
 
-- 
+- A bit of CSS Flexbox.
 
 ### Continued development
 
@@ -61,7 +71,7 @@ It's is one the first projects that I created myself from scratch.
 
 ### Useful resources
 
-- 
+- [CSS Grid Layout e Flexbox - Quando Utilizar](https://www.youtube.com/watch?v=x-4z_u8LcGc) - This video helped me to understand better the CSS Flexbox concept.
 
 <!--
 - [Example resource 1](https://www.markdownguide.org/basic-syntax/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
